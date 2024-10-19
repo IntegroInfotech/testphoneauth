@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>505698623774-evb3ubchgol2m7hb9jr0u61cf89osugm.apps.googleusercontent.com</string>
+	<string>505698623774-arhuujh7vrjoo0tmtetgpg0gpj9v24j1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.505698623774-evb3ubchgol2m7hb9jr0u61cf89osugm</string>
+	<string>com.googleusercontent.apps.505698623774-arhuujh7vrjoo0tmtetgpg0gpj9v24j1</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>505698623774-1ar0h8p5mja1h85tnddjopfa5m097t9t.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyApPFna0O0TQUrf5aBgzTe12fKsz9nWIrg</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.integro.testphoneauth</string>
+	<string>com.integro.testphoneauth.dev</string>
 	<key>PROJECT_ID</key>
 	<string>nse-test-a9454</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:505698623774:ios:0f5c3399f0a40047aae90f</string>
+	<string>1:505698623774:ios:c7b237ccc332416aaae90f</string>
 </dict>
 </plist>

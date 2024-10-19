@@ -122,6 +122,50 @@
       },
       "oauth_client": [
         {
+          "client_id": "505698623774-1ar0h8p5mja1h85tnddjopfa5m097t9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.integro.testphoneauth",
+            "certificate_hash": "5f7c9b06559a15c94f577046af90eceb771904d1"
+          }
+        },
+        {
+          "client_id": "505698623774-sf7rrdhbhlf380kjn1295u5jgqhae84t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBknnHmAPKxml674kdacug35h0y9oiMK24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505698623774-6kk63tif4r9tljgu1ahsejrkamc7sd0c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "505698623774-1et318gmsb78i5grstgd5fbbmfq0s9kb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nseError.stg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505698623774:android:1f52fcb0d6f09be3aae90f",
+        "android_client_info": {
+          "package_name": "com.integro.testphoneauth.dev"
+        }
+      },
+      "oauth_client": [
+        {
           "client_id": "505698623774-sf7rrdhbhlf380kjn1295u5jgqhae84t.apps.googleusercontent.com",
           "client_type": 3
         }

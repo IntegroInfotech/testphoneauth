@@ -51,17 +51,18 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyApPFna0O0TQUrf5aBgzTe12fKsz9nWIrg',
-    appId: '1:505698623774:ios:0f5c3399f0a40047aae90f',
+    appId: '1:505698623774:ios:c7b237ccc332416aaae90f',
     messagingSenderId: '505698623774',
     projectId: 'nse-test-a9454',
     storageBucket: 'nse-test-a9454.appspot.com',
-    iosClientId: '505698623774-evb3ubchgol2m7hb9jr0u61cf89osugm.apps.googleusercontent.com',
-    iosBundleId: 'com.integro.testphoneauth',
+    androidClientId: '505698623774-1ar0h8p5mja1h85tnddjopfa5m097t9t.apps.googleusercontent.com',
+    iosClientId: '505698623774-arhuujh7vrjoo0tmtetgpg0gpj9v24j1.apps.googleusercontent.com',
+    iosBundleId: 'com.integro.testphoneauth.dev',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBknnHmAPKxml674kdacug35h0y9oiMK24',
-    appId: '1:505698623774:android:75898a6f60b5bb47aae90f',
+    appId: '1:505698623774:android:1f52fcb0d6f09be3aae90f',
     messagingSenderId: '505698623774',
     projectId: 'nse-test-a9454',
     storageBucket: 'nse-test-a9454.appspot.com',
