@@ -2,25 +2,37 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:testphoneauth/firebase_options.dart';
+
+import 'notification_controller.dart';
 
 late FirebaseApp firebase;
 late FirebaseAuth firebaseAuth;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  firebase = await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await NotificationController.initializeLocalNotifications(debug: true);
+  await NotificationController.initializeRemoteNotifications(debug: true);
+  await NotificationController.initializeIsolateReceivePort();
   firebaseAuth = FirebaseAuth.instance;
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  void initState() {
+    NotificationController.startListeningNotificationEvents();
+    NotificationController.requestFirebaseToken();
+    super.initState();
+  }
 
   // This widget is the root of your application.
   @override
@@ -195,7 +207,7 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           IconButton(
             onPressed: () {
-              if(firebaseAuth.currentUser!= null) {
+              if (firebaseAuth.currentUser != null) {
                 firebaseAuth.signOut();
               }
             },
