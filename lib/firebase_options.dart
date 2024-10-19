@@ -24,10 +24,7 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
@@ -53,11 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA3swprsOYyrgvSP_2lhluBUCYM1uJ5usI',
-    appId: '1:587867664111:ios:aee9d1827f97566183b51a',
-    messagingSenderId: '587867664111',
-    projectId: 'testfire-phone-auth',
-    storageBucket: 'testfire-phone-auth.appspot.com',
+    apiKey: 'AIzaSyApPFna0O0TQUrf5aBgzTe12fKsz9nWIrg',
+    appId: '1:505698623774:ios:0f5c3399f0a40047aae90f',
+    messagingSenderId: '505698623774',
+    projectId: 'nse-test-a9454',
+    storageBucket: 'nse-test-a9454.appspot.com',
+    iosClientId: '505698623774-evb3ubchgol2m7hb9jr0u61cf89osugm.apps.googleusercontent.com',
     iosBundleId: 'com.integro.testphoneauth',
   );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyBknnHmAPKxml674kdacug35h0y9oiMK24',
+    appId: '1:505698623774:android:75898a6f60b5bb47aae90f',
+    messagingSenderId: '505698623774',
+    projectId: 'nse-test-a9454',
+    storageBucket: 'nse-test-a9454.appspot.com',
+  );
+
 }

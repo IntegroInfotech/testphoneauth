@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "505698623774",
+    "project_id": "nse-test-a9454",
+    "storage_bucket": "nse-test-a9454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505698623774:android:d2619ffe4e60cfabaae90f",
+        "android_client_info": {
+          "package_name": "com.example.nse_error"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505698623774-sf7rrdhbhlf380kjn1295u5jgqhae84t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBknnHmAPKxml674kdacug35h0y9oiMK24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505698623774-6kk63tif4r9tljgu1ahsejrkamc7sd0c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "505698623774-1et318gmsb78i5grstgd5fbbmfq0s9kb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nseError.stg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505698623774:android:0423199c663c7150aae90f",
+        "android_client_info": {
+          "package_name": "com.example.nse_error.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505698623774-sf7rrdhbhlf380kjn1295u5jgqhae84t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBknnHmAPKxml674kdacug35h0y9oiMK24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505698623774-6kk63tif4r9tljgu1ahsejrkamc7sd0c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "505698623774-1et318gmsb78i5grstgd5fbbmfq0s9kb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nseError.stg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505698623774:android:235876a29a4345afaae90f",
+        "android_client_info": {
+          "package_name": "com.example.nse_error.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505698623774-sf7rrdhbhlf380kjn1295u5jgqhae84t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBknnHmAPKxml674kdacug35h0y9oiMK24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505698623774-6kk63tif4r9tljgu1ahsejrkamc7sd0c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "505698623774-1et318gmsb78i5grstgd5fbbmfq0s9kb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nseError.stg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505698623774:android:75898a6f60b5bb47aae90f",
+        "android_client_info": {
+          "package_name": "com.integro.testphoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505698623774-sf7rrdhbhlf380kjn1295u5jgqhae84t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBknnHmAPKxml674kdacug35h0y9oiMK24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505698623774-6kk63tif4r9tljgu1ahsejrkamc7sd0c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "505698623774-1et318gmsb78i5grstgd5fbbmfq0s9kb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nseError.stg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
